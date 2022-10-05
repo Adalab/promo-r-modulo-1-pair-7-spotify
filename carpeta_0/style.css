@@ -15,9 +15,14 @@ body{
     text-align: center;
 }
 
+.bar{
+    color: grey;
+}
+
 .arriba .lista{
     display:flex;
     text-decoration: none;
+    list-style: none;
 }
 
 .arriba a{
@@ -128,17 +133,24 @@ body{
     padding: 12px;
     text-decoration: none; 
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .orden{
     display:flex;
     text-decoration: none;
+    list-style: none;
 }
 
 .number{
     text-align: right;
     color: #A9A6A8;
     text-decoration: none;
+}
+
+.bandera{
+    
 }
 
 
