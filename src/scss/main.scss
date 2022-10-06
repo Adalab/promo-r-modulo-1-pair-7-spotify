@@ -8,10 +8,6 @@
 @import 'pages/index';
 */
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .arriba{
     background-color: black;
     padding: 10px;
@@ -50,6 +46,10 @@ body{
 .logo{
     height: 28px;
     margin-top: 6px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .principal{

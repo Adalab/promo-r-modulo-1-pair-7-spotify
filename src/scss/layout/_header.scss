@@ -1,5 +1,39 @@
-.page__header {
+.arriba{
+  background-color: black;
+  padding: 10px;
+  overflow: hidden; 
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+
+}
+
+.arriba .logo{
+  text-align: center;
+}
+
+.bar{
+  color: grey;
+}
+
+.arriba .lista{
+  display:flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.arriba a{
+  color: white;
+  text-align: right;
+  padding: 12px;
+  text-decoration: none; 
+  font-size: 14px;
+}
+
+.arriba a:hover{
+  background-color: #5C5C5C;
+}
+
+.logo{
+  height: 28px;
+  margin-top: 6px;
 }
